@@ -7,7 +7,7 @@ div {
 
 p {
     font-size: 200%;
-    text-align: center;
+    text-align: right;
     color: red;
 }
 
@@ -15,6 +15,50 @@ img {
     float: right;
 }
 
+
+.img1 {
+    width: 25%;
+    height: 20%;
+} 
+
+.img2 {
+    width: 30%;
+    height: 30%;
+} 
+
 .f {
-    padding-top: 30%;
+    padding-top: 10%;
+}
+
+@media (max-width: 1200px) {
+    div {
+        height: 100%;
+        width: 100%;
+        background: url('./kot4.jpg') no-repeat;
+        background-size: 55%;
+    }
+    
+    p {
+        font-size: 250%;
+        text-align: center;
+        color: red;
+    }
+    
+    img {
+        float: right;
+    }
+
+    .img1 {
+        width: 35%;
+        height: 30%;
+    } 
+
+    .img2 {
+        width: 50%;
+        height: 50%;
+    } 
+
+    .f {
+        padding-top: 56%;
+    }
 }
