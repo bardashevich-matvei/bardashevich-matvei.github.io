@@ -1,0 +1,20 @@
+div {
+    height: 100%;
+    width: 100%;
+    background: url('./kot4.jpg') no-repeat;
+    background-size: 50%;
+}
+
+p {
+    font-size: 200%;
+    text-align: right;
+    color: red;
+}
+
+img {
+    float: right;
+}
+
+.f {
+    padding-top: 10%;
+}
